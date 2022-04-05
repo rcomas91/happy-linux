@@ -13,11 +13,7 @@ export class FormComponent implements OnInit {
   descripcion:string="";
   imagen:string="";
   link:string="";
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  
   onChange(mes:any) {
    
     switch(mes){
